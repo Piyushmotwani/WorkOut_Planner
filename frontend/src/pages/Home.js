@@ -20,8 +20,7 @@ const Home = () => {
            dispatch({type:'SET_WORKOUTS', payload: json})
         }
         }
-
-
+        
         fetchWorkouts()
 
     },[])
